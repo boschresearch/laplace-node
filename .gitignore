@@ -1,0 +1,15 @@
+*__pycache__*
+**/data/datasets/*
+# We specifically include this dataset for tests
+# If someone ever feels motivated, move the dataset to git lfs
+jupyter_notebooks/.ipynb_checkpoints/
+**/experiments/neural_ode/
+eggs/
+.eggs/
+*.so
+.idea/
+yaml_config*/
+.coverage
+test-coverage.xml
+test-reports
+.pytest_cache

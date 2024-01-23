@@ -1,0 +1,22 @@
+name: ode-software
+channels:
+  - defaults
+dependencies:
+  - python=3.9.0
+  - hypothesis
+  - matplotlib
+  - numpy
+  - PyYAML
+  - pylint
+  - pytest
+  - pytest-mock
+  - pytest-cov
+  - pydantic
+  - scikit-learn
+  - pip:
+    - torch>=1.8
+    - torchvision
+    - scipy
+    - torchdiffeq
+    - clustertools
+    - laplace-torch

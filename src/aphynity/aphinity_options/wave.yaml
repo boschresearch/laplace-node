@@ -1,0 +1,13 @@
+aug: true
+dataset: wave
+lambda_0: 1.0
+min_op: l2
+name: aphynity
+nepoch: 100
+niter: 3
+phy: incomplete
+tau_1: 0.0001
+tau_2: 0.001
+use_gpu: false
+state_c: 2
+hidden: 8

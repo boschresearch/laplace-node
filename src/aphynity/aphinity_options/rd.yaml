@@ -1,0 +1,13 @@
+aug: true
+dataset: pd
+lambda_0: 1.0
+min_op: l2
+name: aphynity
+nepoch: 5000
+niter: 1
+phy: incomplete
+tau_1: 0.001
+tau_2: 0.001
+use_gpu: false
+hidden: 16
+state_c: 2

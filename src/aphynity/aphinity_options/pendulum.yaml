@@ -1,0 +1,13 @@
+aug: true
+dataset: pendulum
+lambda_0: 1.0
+min_op: l2_normalized
+name: aphynity
+nepoch: 5000
+niter: 5
+phy: incomplete
+tau_1: 0.001
+tau_2: 1
+use_gpu: false
+state_c: 2
+hidden: 200
